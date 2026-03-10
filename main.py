@@ -3,6 +3,6 @@ digits = 0
 
 while number > 0:
     number = number // 10
-    digits = digits + 1
+    digits += 1
 
-print("The number has", digits, "digits")
+print(f"The number has {digits} digits")
